@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
-       String x = "Programação";
-       String parte1 = x.substring(0,8);
-       String parte2 = x.substring(8);
-       System.out.println("primeira parte: " + parte1 +", segunda parte: " + parte2);
+       String x = "computação";
+       char p1 = x.charAt(0);
+       char p3 = x.charAt(2);
+       char pf = x.charAt(9);
+       System.out.println("primeiro caracter: " + p1 + ", terceiro: "+ p3 + ", ultimo: " + pf);
 
 
 
